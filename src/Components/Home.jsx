@@ -22,7 +22,7 @@ function Home() {
   };
   return (
     <div className=" w-screen h-screen flex justify-center  ">
-      <div className="mt-32 w-[90vw] h-90vh] justify-items-center ">
+      <div className="mt-32 w-[90vw] h-[90vh] justify-items-center ">
         <div className="m-3 flex gap-4 ">
           <h1 className="text-4xl pr-3 font-serif">Pick Color</h1>
           <button className="border rounded-sm px-3 py-1" onClick={sampler}>
